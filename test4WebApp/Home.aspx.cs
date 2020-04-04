@@ -11,6 +11,7 @@ namespace test4WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Write("Hello World");
             Response.Write(string.Format("test app: {0}", DateTime.Now));
         }
     }
